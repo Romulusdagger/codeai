@@ -96,7 +96,7 @@ const handleSubmit = async (e) => {
   // messageDiv.innerHTML = "..."
   loader(messageDiv)
 
-  const response = await fetch('https://codex-nu7z.onrender.com', {
+  const response = await fetch('https://sun-coding-ai.vercel.app/', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
